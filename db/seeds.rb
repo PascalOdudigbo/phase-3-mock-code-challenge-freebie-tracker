@@ -17,5 +17,17 @@ puts "Creating freebies..."
 # * and a freebie belongs to a company.                         *
 # ***************************************************************
 # Create freebies Here
+Freebie.create(item_name: "blablabla", value: 6, company_id: 1, dev_id: 2)
+Freebie.create(item_name: "maahmaah", value: 5, company_id: 4, dev_id: 1)
+Freebie.create(item_name: "meehmeeh", value: 2, company_id: 3, dev_id: 2)
+Freebie.create(item_name: "reeree", value: 1, company_id: 1, dev_id: 3)
+Freebie.create(item_name: "yangzen", value: 7, company_id: 2, dev_id: 1)
+Freebie.create(item_name: "bloopyap", value: 3, company_id: 4, dev_id: 4)
+Freebie.create(item_name: "cunfeng", value: 9, company_id: 2, dev_id: 3)
+Freebie.create(item_name: "rampjang", value: 8, company_id: 3, dev_id: 4)
+Freebie.create(item_name: "zoingeng", value: 1, company_id: 3, dev_id: 1)
+Freebie.create(item_name: "bluedueig", value: 7, company_id: 1, dev_id: 3)
+Freebie.create(item_name: "doengzeng", value: 9, company_id: 4, dev_id: 4)
+Freebie.create(item_name: "sengyulk", value: 5, company_id: 2, dev_id: 2)
 
 puts "Seeding done!"
