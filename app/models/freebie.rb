@@ -2,6 +2,7 @@ class Freebie < ActiveRecord::Base
     belongs_to :company
     belongs_to :dev
 
+    #created this method for fun
     def self.print_details
         Freebie.all.map do |freebie_row|
             "#{freebie_row.dev.name} owns a #{freebie_row.item_name} from #{freebie_row.company.name}"
